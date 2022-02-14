@@ -30,7 +30,7 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-Install all required python packages once the virtual environment has been activated. pip3 version here is the old one. Once you run the below command it will ask you to update the current version of pip. You can use the following code to update pip. The requirement.txt file has the older version of dataclasses (0.8). This will not work. So remove the ==0.8 and leave it to the pip to install the current version. 
+Install all required python packages once the virtual environment has been activated. pip3 version here is the old one. Once you run the below command it will ask you to update the current version of pip. You can use the following code to update pip. The requirement.txt file has the older version of dataclasses (0.8). This will not work. So remove the ==0.8 and leave it to the pip to install the current version. The version were loosen and removed from all the packages and then it was successfully installed.  
 ```
 python3 -m pip install --upgrade pip
 pip3 install -r requirements.txt
