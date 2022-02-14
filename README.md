@@ -18,7 +18,7 @@ This code has been tested with Python 3.6 under both Ubuntu 18.04 LTS and Ubuntu
 
 ```
 mkdir KIDS
-git clone https://github.com/IBPA/KIDS.git ./KIDS
+git clone https://github.com/Adilsalim05/KIDS
 ```
 
 ### 2b. Install all the dependencies.
@@ -30,10 +30,12 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-Install all required python packages once the virtual environment has been activated.
+Install all required python packages once the virtual environment has been activated. pip3 version here is the old one. Once you run the below command it will ask you to update the current version of pip. You can use the following code to update pip. The requirement.txt file has the older version of dataclasses (0.8). This will not work. So remove the ==0.8 and leave it to the pip to install the current version. 
 ```
+python3 -m pip install --upgrade pip
 pip3 install -r requirements.txt
 ```
+metadata-geenration-failed. Package failed. 
 
 You will also need Java 7 or higher. If you are running Ubuntu 18.04, follow the steps below to install Java OpenJDK 11.
 ```
