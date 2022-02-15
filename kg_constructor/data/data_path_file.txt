@@ -14,3 +14,4 @@ kg_constructor/data/dataset/Pathogen_Detection_DB/PathogenD_db_feb15.txt PathoDB
 /path/to/dataset/directory/GO_sal/GO_sal_Feb11_Final.txt	GO
 /path/to/dataset/directory/salm/Sal-Ab_Feb14-Final.txt Sal_Ab
 /path/to/dataset/directory/Pathogen_Detection_DB/PathogenD_db_feb15.txt PathoDB
+kg_constructor/data/dataset/Girgis_et_al/Girgis_et_al.txt
