@@ -10,5 +10,7 @@ Path	Source
 /path/to/dataset/directory/CARD/CARD_Antibiotics_Resistance_Ecoli_Genes.txt	CARD
 kg_constructor/data/dataset/GO_sal/GO_sal_Feb11_Final.txt GO
 kg_constructor/data/dataset/Salm/Sal-Ab_Feb14-Final.txt Sal_Ab
+kg_constructor/data/dataset/Pathogen_Detection_DB/PathogenD_db_feb15.txt PathoDB
 /path/to/dataset/directory/GO_sal/GO_sal_Feb11_Final.txt	GO
-/path/to/dataset/directory/salm/Sal-Ab_Feb14-Final.txt
+/path/to/dataset/directory/salm/Sal-Ab_Feb14-Final.txt Sal_Ab
+/path/to/dataset/directory/Pathogen_Detection_DB/PathogenD_db_feb15.txt PathoDB
