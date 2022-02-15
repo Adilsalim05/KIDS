@@ -1,5 +1,4 @@
 Path	Source
-/path/to/dataset/directory/hiTRN/hiTRN.txt	hiTRN
 /path/to/dataset/directory/GO/GO.txt	GO
 /path/to/dataset/directory/Shaw_et_al/Shaw_et_al.txt	Shaw
 /path/to/dataset/directory/Zhou_et_al/Zhou_et_al.txt	Zhou
@@ -9,3 +8,7 @@ Path	Source
 /path/to/dataset/directory/Girgis_et_al/Girgis_et_al.txt	Girgis
 /path/to/dataset/directory/Soo_et_al/Soo_et_al.txt	Soo
 /path/to/dataset/directory/CARD/CARD_Antibiotics_Resistance_Ecoli_Genes.txt	CARD
+kg_constructor/data/dataset/GO_sal/GO_sal_Feb11_Final.txt GO
+kg_constructor/data/dataset/Salm/Sal-Ab_Feb14-Final.txt Sal_Ab
+/path/to/dataset/directory/GO_sal/GO_sal_Feb11_Final.txt	GO
+/path/to/dataset/directory/salm/Sal-Ab_Feb14-Final.txt
