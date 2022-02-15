@@ -1,3 +1,4 @@
+Subject	Predicate	Object
 MdtK	confers resistance to 	Acriflavine
 aac(3)-Id	confers resistance to 	Aminoglycosides
 aac(3)-Id	confers resistance to 	Aminoglycosides
