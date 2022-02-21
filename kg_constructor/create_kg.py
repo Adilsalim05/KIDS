@@ -90,7 +90,7 @@ def main():
         pd_data = data_manager.integrate()
 
         # perform name mapping
-        pd_data = data_manager.map_name(pd_data)
+        #pd_data = data_manager.map_name(pd_data)
 
         # perform knowledge inferral
         pd_data = data_manager.infer(pd_data)
