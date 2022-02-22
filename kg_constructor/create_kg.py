@@ -81,9 +81,9 @@ def main():
         #config_parser.getstr('replace_rule'))
 
     # construct InconsistencyManager class
-    inconsistency_manager = InconsistencyManager(
-        config_parser.getstr('inconsistency_rules'),
-        resolver_mode=config_parser.getstr('resolver_mode'))
+    #inconsistency_manager = InconsistencyManager(
+        #config_parser.getstr('inconsistency_rules'),
+        #resolver_mode=config_parser.getstr('resolver_mode'))
 
     if args.phase in ['phase1', 'all']:
         # perform knowledge integration
@@ -99,7 +99,7 @@ def main():
         pd_data = data_manager.replace(pd_data)
 
         # perform inconsistency detection
-        inconsistencies = inconsistency_manager.detect(pd_data)
+        #inconsistencies = inconsistency_manager.detect(pd_data)
 
         # perform inconsistency resolution and parse the results
         resolution_result = inconsistency_manager.resolve(pd_data, inconsistencies)
