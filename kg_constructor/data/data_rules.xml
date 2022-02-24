@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <rules>
-	<rule name="confers_resistance_to_antibiotic_after_30_mins">
+	<rule name="confers_resistance_to_antibiotic">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</then>
 	</rule>
-	<rule name="confers_resistance_to_antibiotic_after_15_hours">
+	<rule name="confers_resistance_to_antibiotic">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 15 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
@@ -18,7 +18,7 @@
 	</rule>
 	<rule name="confers_resistance_to_antibiotic_after_18_hours">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 18 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
@@ -26,7 +26,7 @@
 	</rule>
 	<rule name="confers_resistance_to_antibiotic_after_36_hours">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 36 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
@@ -34,7 +34,7 @@
 	</rule>
 	<rule name="confers_resistance_to_antibiotic_after_3_days">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 3 days"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
@@ -42,7 +42,7 @@
 	</rule>
 	<rule name="confers_resistance_to_antibiotic_after_7_days">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 7 days"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
@@ -50,7 +50,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_30_mins">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -59,7 +59,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_15_hours">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 15 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -68,7 +68,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_18hours">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 18 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -77,7 +77,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_36_hours">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 36 hours"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -86,7 +86,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_3_days">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 3 days"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -95,7 +95,7 @@
 	</rule>
 	<rule name="response_to_antibiotic_after_7_days">
 		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 7 days"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -104,7 +104,7 @@
 	</rule>
 	<rule name="upregulated_by_antibiotic_after_30_mins">
 		<if>
-			<feature name="Predicate" value="upregulated by antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="upregulated by antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="has"></feature>
@@ -113,18 +113,18 @@
 	</rule>
 	<rule name="upregulated_and_resistance_after_30_mins">
 		<if>
-			<feature name="Predicate" value="upregulated by antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="upregulated by antibiotic"></feature>
 		</if>
 		<then>
-			<feature name="Predicate" value="confers resistance to antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</then>
 	</rule>
 	<rule name="not_upregulated_and_no_resistance_after_30_mins">
 		<if>
-			<feature name="Predicate" value="not upregulated by antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="not upregulated by antibiotic"></feature>
 		</if>
 		<then>
-			<feature name="Predicate" value="confers no resistance to antibiotic after 30 mins"></feature>
+			<feature name="Predicate" value="confers no resistance to antibiotic"></feature>
 		</then>
 	</rule>
 	<rule name="pos_transcription_factor">
