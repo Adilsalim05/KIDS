@@ -57,65 +57,66 @@
 			<feature name="Object" value="response to antibiotic"></feature>
 		</then>
 	</rule>
-	<rule name="response_to_antibiotic_after_15_hours">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="response_to_antibiotic_after_18hours">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="response_to_antibiotic_after_36_hours">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="response_to_antibiotic_after_3_days">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="response_to_antibiotic_after_7_days">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="upregulated_by_antibiotic_after_30_mins">
-		<if>
-			<feature name="Predicate" value="upregulated by antibiotic"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="has"></feature>
-			<feature name="Object" value="response to antibiotic"></feature>
-		</then>
-	</rule>
-	<rule name="upregulated_and_resistance_after_30_mins">
-		<if>
-			<feature name="Predicate" value="upregulated by antibiotic"></feature>
-		</if>
-		<then>
+	
+	#<rule name="response_to_antibiotic_after_15_hours">
+	#	<if>
+	#		<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="response_to_antibiotic_after_18hours">
+	#	<if>
+	#		<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="response_to_antibiotic_after_36_hours">
+	#	<if>
+	#		<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="response_to_antibiotic_after_3_days">
+	#	<if>
+	#		<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="response_to_antibiotic_after_7_days">
+	#	<if>
+	#		<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="upregulated_by_antibiotic_after_30_mins">
+	#	<if>
+	#		<feature name="Predicate" value="upregulated by antibiotic"></feature>
+	#	</if>
+	#	<then>
+	#		<feature name="Predicate" value="has"></feature>
+	#		<feature name="Object" value="response to antibiotic"></feature>
+	#	</then>
+	#</rule>
+	#<rule name="upregulated_and_resistance_after_30_mins">
+	#	<if>
+	#		<feature name="Predicate" value="upregulated by antibiotic"></feature>
+	#	</if>
+	#	<then>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</then>
 	</rule>
