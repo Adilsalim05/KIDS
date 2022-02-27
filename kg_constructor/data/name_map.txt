@@ -1,4 +1,4 @@
-Source  Target
+Source  Path
 "(-)-(1R,2S)-(1,2-Epoxypropyl)phosphonic acid"  Fosfomycin
 (2R-cis)-(3-Methyloxiranyl)phosphonic acid  Fosfomycin
 5-18-12-00526 (Beilstein Handbook Reference)  Fosfomycin
