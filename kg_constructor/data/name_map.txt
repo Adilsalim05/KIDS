@@ -1,0 +1,14 @@
+Source  Target
+"(-)-(1R,2S)-(1,2-Epoxypropyl)phosphonic acid"  Fosfomycin
+(2R-cis)-(3-Methyloxiranyl)phosphonic acid      Fosfomycin
+5-18-12-00526 (Beilstein Handbook Reference)    Fosfomycin
+883A    Fosfomycin
+Antibiotic 833A Fosfomycin
+BRN 1680831     Fosfomycin
+EINECS 245-463-1        Fosfomycin
+Fosfocina       Fosfomycin
+Fosfomicin      Fosfomycin
+Fosfomicina     Fosfomycin
+Fosfomicina [INN-Spanish]       Fosfomycin
+Fosfomycin      Fosfomycin
+Fosfomycine     Fosfomycin
