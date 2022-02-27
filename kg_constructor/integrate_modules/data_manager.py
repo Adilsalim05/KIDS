@@ -103,20 +103,20 @@ class DataManager:
         log.info('Applyg name mapping table...')
 
         # open name mapping file
-        with open(self.map_file) as file:
-            next(file)  # skip the header
-            map_file_content = file.readlines()
+        #with open(self.map_file) as file:
+         #   next(file)  # skip the header
+          #  map_file_content = file.readlines()
 
         # store dictionary of the name mapping information
-        dict_map = {}
-        for map_line in map_file_content:
-            key, value = map_line.strip('\n').split('\t')
-            dict_map[key] = value
+        #dict_map = {}
+        #for map_line in map_file_content:
+         #   key, value = map_line.strip('\n').split('\t')
+          #  dict_map[key] = value
            
 
-        def has_mapping_name(row, dict_map):
-            row_copy = row.copy()
-            values = dict_map.values()
+        #def has_mapping_name(row, dict_map):
+         #   row_copy = row.copy()
+          #  values = dict_map.values()
 
             # return original if both subject and object are already using correct name
             if (row['Subject'] in values) and (row['Object'] in values):
