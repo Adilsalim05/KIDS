@@ -119,20 +119,20 @@ class DataManager:
           #  values = dict_map.values()
 
             # return original if both subject and object are already using correct name
-            if (row['Subject'] in values) and (row['Object'] in values):
-                return row
+           # if (row['Subject'] in values) and (row['Object'] in values):
+            #    return row
 
-            if (row['Subject'] in dict_map) and (row['Subject'] not in values):
-                row_copy['Subject'] = dict_map[row['Subject']]
+            #if (row['Subject'] in dict_map) and (row['Subject'] not in values):
+             #   row_copy['Subject'] = dict_map[row['Subject']]
 
-            if (row['Object'] in dict_map) and (row['Object'] not in values):
-                row_copy['Object'] = dict_map[row['Object']]
+            #if (row['Object'] in dict_map) and (row['Object'] not in values):
+             #   row_copy['Object'] = dict_map[row['Object']]
 
-            return row_copy
+           # return row_copy
 
-        pd_mapped = pd_data.apply(has_mapping_name, axis=1, args=(dict_map, ))
+        #pd_mapped = pd_data.apply(has_mapping_name, axis=1, args=(dict_map, ))
 
-        return pd_mapped
+        #return pd_mapped
 
     def infer(self, pd_data):
         """
