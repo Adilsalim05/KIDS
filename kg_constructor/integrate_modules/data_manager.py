@@ -112,6 +112,7 @@ class DataManager:
         for map_line in map_file_content:
             key, value = map_line.strip('\n').split('\t')
             dict_map[key] = value
+            continue
 
         def has_mapping_name(row, dict_map):
             row_copy = row.copy()
