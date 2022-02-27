@@ -110,7 +110,7 @@ class DataManager:
         # store dictionary of the name mapping information
         dict_map = {}
         for map_line in map_file_content:
-            key, value = map_line.strip('\n')split(' ')
+            key, value = map_line.strip('\n').split(' ')
             dict_map[key] = value
            
 
