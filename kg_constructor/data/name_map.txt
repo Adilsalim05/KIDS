@@ -11,4 +11,4 @@ Fosfomicin      Fosfomycin
 Fosfomicina     Fosfomycin
 Fosfomicina [INN-Spanish]       Fosfomycin
 Fosfomycin      Fosfomycin
-Fosfomycine     Fosfomycin
+Fosfomycine Sac     Fosfomycin
