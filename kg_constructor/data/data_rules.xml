@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <rules>
 	<rule name="confers_resistance_to_antibiotic">
-	<if>
+	<rule>
+		<if>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
