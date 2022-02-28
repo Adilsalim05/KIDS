@@ -47,12 +47,12 @@ class DataManager:
         self.replace_rule_file = replace_rule_file
 
     def integrate(self):
-"""       
+        """       
        Integrate data from multiple sources.
 
         Returns:
             pd_integrated: (pd.DataFrame) Integrated data.
-  """      
+        """      
         list_integrated = []
         pd_data_paths = pd.read_csv(self.data_paths, sep='\t')
 
