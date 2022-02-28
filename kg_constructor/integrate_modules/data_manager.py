@@ -24,15 +24,15 @@ import xml.etree.ElementTree as ET
 # local imports
 from utilities import get_pd_of_statement
 
-
+"""
 class DataManager:
     """
     Class for managing the data.
     """
-
+    
     def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
         """
-        Class constructor for DataManager. All inputs are optional
+"""        Class constructor for DataManager. All inputs are optional
         since only name mapping may be used somewhere else.
 
         Inputs:
@@ -41,19 +41,19 @@ class DataManager:
             data_rule_file: (str, optional) Filepath for knowledge inferral.
             replace_rule_file: (str, optional) Filepath for any replacements.
         """
-        self.data_paths = data_paths
+ """       self.data_paths = data_paths
         self.map_file = map_file
         self.data_rule_file = data_rule_file
         self.replace_rule_file = replace_rule_file
 
     def integrate(self):
         """
-        Integrate data from multiple sources.
+"""        Integrate data from multiple sources.
 
         Returns:
             pd_integrated: (pd.DataFrame) Integrated data.
         """
-        list_integrated = []
+ """       list_integrated = []
         pd_data_paths = pd.read_csv(self.data_paths, sep='\t')
 
         # iterate over each dataset and perform name mappipng
@@ -88,7 +88,7 @@ class DataManager:
 
     def map_name(self, pd_data):
         """
-        Perform name mapping given data from single source.
+"""        Perform name mapping given data from single source.
 
         Inputs:
             pd_data: (pd.DataFrame) Data that needs name mapping.
@@ -96,12 +96,13 @@ class DataManager:
         Returns:
             pd_mapped: (pd.DataFrame) Name mapped data.
         """
-        if not self.map_file:
+ """       if not self.map_file:
             log.info('Mapping file not specified. Skipping name mapping...')
             return pd_data
-
+"""
+    """
         log.info('Applyg name mapping table...')
-
+"""
         # open name mapping file
         #with open(self.map_file) as file:
          #   next(file)  # skip the header
