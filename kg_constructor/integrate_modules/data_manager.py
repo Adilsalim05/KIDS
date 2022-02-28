@@ -27,8 +27,11 @@ from utilities import get_pd_of_statement
 
 class DataManager:
     def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
-  
-"""       
+
+        
+        
+        
+        """       
         Class constructor for DataManager. All inputs are optional
         since only name mapping may be used somewhere else.
 
@@ -37,7 +40,7 @@ class DataManager:
             map_file: (str, optional) Filepath of name mapping table.
             data_rule_file: (str, optional) Filepath for knowledge inferral.
             replace_rule_file: (str, optional) Filepath for any replacements.
-"""       
+        """       
         self.data_paths = data_paths
         self.map_file = map_file
         self.data_rule_file = data_rule_file
