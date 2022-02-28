@@ -26,11 +26,11 @@ from utilities import get_pd_of_statement
 
 
 class DataManager:
-    def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
+    """
+    Class for managing the data.
+    """
 
-        
-        
-        
+    def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
         """       
         Class constructor for DataManager. All inputs are optional
         since only name mapping may be used somewhere else.
@@ -100,40 +100,38 @@ class DataManager:
             log.info('Mapping file not specified. Skipping name mapping...')
             return pd_data
 
- 
         log.info('Applyg name mapping table...')
 
         # open name mapping file
-        #with open(self.map_file) as file:
-         #   next(file)  # skip the header
-          #  map_file_content = file.readlines()
+        with open(self.map_file) as file:
+            next(file)  # skip the header
+            map_file_content = file.readlines()
 
         # store dictionary of the name mapping information
-        #dict_map = {}
-        #for map_line in map_file_content:
-         #   key, value = map_line.strip('\n').split('\t')
-          #  dict_map[key] = value
-           
+        dict_map = {}
+        for map_line in map_file_content:
+            key, value = map_line.strip('\n').split('\t')
+            dict_map[key] = value
 
-        #def has_mapping_name(row, dict_map):
-         #   row_copy = row.copy()
-          #  values = dict_map.values()
+        def has_mapping_name(row, dict_map):
+            row_copy = row.copy()
+            values = dict_map.values()
 
             # return original if both subject and object are already using correct name
-           # if (row['Subject'] in values) and (row['Object'] in values):
-            #    return row
+            if (row['Subject'] in values) and (row['Object'] in values):
+                return row
 
-            #if (row['Subject'] in dict_map) and (row['Subject'] not in values):
-             #   row_copy['Subject'] = dict_map[row['Subject']]
+            if (row['Subject'] in dict_map) and (row['Subject'] not in values):
+                row_copy['Subject'] = dict_map[row['Subject']]
 
-            #if (row['Object'] in dict_map) and (row['Object'] not in values):
-             #   row_copy['Object'] = dict_map[row['Object']]
+            if (row['Object'] in dict_map) and (row['Object'] not in values):
+                row_copy['Object'] = dict_map[row['Object']]
 
-           # return row_copy
+            return row_copy
 
-        #pd_mapped = pd_data.apply(has_mapping_name, axis=1, args=(dict_map, ))
+        pd_mapped = pd_data.apply(has_mapping_name, axis=1, args=(dict_map, ))
 
-        #return pd_mapped
+        return pd_mapped
         
     def infer(self, pd_data):
         """
@@ -153,7 +151,8 @@ class DataManager:
         pd_updated = pd_data.copy()
 
         log.info('Applying data rule to infer new data using %s', self.data_rule_file)
- # iterate over each data rule
+ 
+        # iterate over each data rule
         for data_rule in data_rules:
             log.debug('Processing data rule %s', data_rule.get('name'))
 
@@ -190,8 +189,10 @@ class DataManager:
         """
         Replace any parts of the data if necessary.
         (Currently used specifically to drop temporal data.)
+        
         Inputs:
             pd_data: (pd.DataFrame) Data that has parts to be replaced.
+        
         Returns:
             pd_replaced: (pd.DataFrame) Data with parts replaced.
         """
@@ -235,4 +236,3 @@ class DataManager:
         pd_replaced = pd_replaced.drop_duplicates()
 
         return pd_replaced.reset_index(drop=True)
-    
