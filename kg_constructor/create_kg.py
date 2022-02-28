@@ -76,7 +76,7 @@ def main():
     # construct DataManager class
     data_manager = DataManager(
         config_parser.getstr('data_path'),
-        #config_parser.getstr('name_map'),
+        config_parser.getstr('name_map'),
         config_parser.getstr('data_rule'),
         config_parser.getstr('replace_rule'))
 
