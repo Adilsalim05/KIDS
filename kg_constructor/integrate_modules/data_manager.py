@@ -146,7 +146,7 @@ def infer(self, pd_data):
         """
 if not self.data_rule_file:
     log.info('Data rule file not specified. Skipping knowledge inferral...')
-return pd_data
+    return pd_data
 
 data_rules = ET.parse(self.data_rule_file).getroot()
 pd_updated = pd_data.copy()
