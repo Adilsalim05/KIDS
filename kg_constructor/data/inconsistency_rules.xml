@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rules>
 	
-	</rule>
+
 	<rule name="confers_resistance_to_antibiotic">
 		<inconsistency name="Predicate">
 			<feature value="confers resistance to antibiotic"></feature>
@@ -51,4 +51,6 @@
 		<inconsistency name="Predicate">
 			<feature value="is not regulated by antibiotic"></feature>
 			<feature value="is downregulated by antibiotic"></feature>
+			</inconsistency>
+	</rule>
 </rules>
