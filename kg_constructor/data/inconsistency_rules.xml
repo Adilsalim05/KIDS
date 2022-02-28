@@ -21,12 +21,7 @@
 		</inconsistency>
 	
 	</rule>
-	<rule name="confers_resistance_to_antibiotic_after_36_hours">
-		<inconsistency name="Predicate">
-			<feature value="confers resistance to antibiotic after 36 hours"></feature>
-			<feature value="confers no resistance to antibiotic after 36 hours"></feature>
-		</inconsistency>
-	</rule>
+	
 	<rule name="is associated with resistance to antibiotic">
 		<inconsistency name="Predicate">
 			<feature value="is associated with resistance to antibiotic"></feature>
