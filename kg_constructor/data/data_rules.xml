@@ -1,7 +1,15 @@
 <?xml version="1.0"?>
 <rules>
+	<rule name="confers_resistance_to_antibiotic_after_30_mins">
+		<if>
+			<feature name="Predicate" value="confers resistance to antibiotic after 30 mins"></feature>
+		</if>
+		<then>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
+		</then>
+	</rule>
 	<rule name="confers_resistance_to_antibiotic">
-	<rule>
+
 		<if>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
