@@ -96,7 +96,7 @@ class DataManager:
         Returns:
             pd_mapped: (pd.DataFrame) Name mapped data.
         """   
-       if not self.map_file:
+        if not self.map_file:
             log.info('Mapping file not specified. Skipping name mapping...')
             return pd_data
 
