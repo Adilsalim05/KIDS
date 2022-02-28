@@ -29,30 +29,30 @@ class DataManager:
  """  
     Class for managing the data.
  """
-    
     def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
   
-"""        Class constructor for DataManager. All inputs are optional
+"""       
+        Class constructor for DataManager. All inputs are optional
         since only name mapping may be used somewhere else.
-"""
+
         Inputs:
             data_paths: (str) Filepath containing data sources.
             map_file: (str, optional) Filepath of name mapping table.
             data_rule_file: (str, optional) Filepath for knowledge inferral.
             replace_rule_file: (str, optional) Filepath for any replacements.
-       
+"""       
         self.data_paths = data_paths
         self.map_file = map_file
         self.data_rule_file = data_rule_file
         self.replace_rule_file = replace_rule_file
 
     def integrate(self):
-       
+"""       
        Integrate data from multiple sources.
 
         Returns:
             pd_integrated: (pd.DataFrame) Integrated data.
-        
+  """      
         list_integrated = []
         pd_data_paths = pd.read_csv(self.data_paths, sep='\t')
 
@@ -87,7 +87,7 @@ class DataManager:
         return pd_integrated.reset_index(drop=True)
 
     def map_name(self, pd_data):
-    
+ """   
         Perform name mapping given data from single source.
 
         Inputs:
@@ -95,14 +95,14 @@ class DataManager:
 
         Returns:
             pd_mapped: (pd.DataFrame) Name mapped data.
-     
+  """   
        if not self.map_file:
             log.info('Mapping file not specified. Skipping name mapping...')
             return pd_data
 
  
         log.info('Applyg name mapping table...')
-"""
+
         # open name mapping file
         #with open(self.map_file) as file:
          #   next(file)  # skip the header
@@ -152,5 +152,86 @@ def infer(self, pd_data):
         pd_updated = pd_data.copy()
 
         log.info('Applying data rule to infer new data using %s', self.data_rule_file)
+ # iterate over each data rule
+        for data_rule in data_rules:
+            log.debug('Processing data rule %s', data_rule.get('name'))
 
+            # find all the triples that meets the data rule's if statement
+            if_statement = data_rule.find('if')
+            pd_if_statement = get_pd_of_statement(if_statement)
+            indices_meeting_if = (pd_data[pd_if_statement.index] == pd_if_statement).all(1).values
+            pd_new_data = pd_data[indices_meeting_if].copy()
+
+            if pd_new_data.shape[0] == 0:
+                log.debug('\tNo new data inferred using this data rule')
+                continue
+
+            # get the then statement that we are going to apply
+            # and change it with the original (predicate, object, or both)
+            then_statement = data_rule.find('then')
+            pd_then_statement = get_pd_of_statement(then_statement)
+            pd_new_data[pd_then_statement.index] = pd_then_statement.tolist()
+
+            # append the new data to the original
+            pd_updated = pd_updated.append(pd_new_data)
+
+            log.debug('\t%d new triplets found using this data rule', pd_new_data.shape[0])
+
+        # drop the duplicates
+        pd_updated = pd_updated.drop_duplicates()
+
+        log.info('Total of %d new triplets added based on the data rule',
+                 (pd_updated.shape[0] - pd_data.shape[0]))
+
+        return pd_updated.reset_index(drop=True)
+
+    def replace(self, pd_data):
+        """
+        Replace any parts of the data if necessary.
+        (Currently used specifically to drop temporal data.)
+        Inputs:
+            pd_data: (pd.DataFrame) Data that has parts to be replaced.
+        Returns:
+            pd_replaced: (pd.DataFrame) Data with parts replaced.
+        """
+        if not self.replace_rule_file:
+            log.info('Replace rule file not specified. Skipping data replacement...')
+            return pd_data
+
+        replace_rules = ET.parse(self.replace_rule_file).getroot()
+        pd_replaced = pd_data.copy()
+
+        log.info('Replacing parts of the data using %s', self.replace_rule_file)
+
+        # iterate over each data rule
+        for replace_rule in replace_rules:
+            log.debug('Processing replace rule %s', replace_rule.get('name'))
+
+            # find indices that meets the rule's if statement
+            if_statement = replace_rule.find('if')
+            pd_if_statement = get_pd_of_statement(if_statement)
+            if_name = pd_if_statement.index[0]
+            if_value = pd_if_statement[0]
+            indices_meeting_if = (pd_data[if_name].str.contains(if_value))
+
+            if not indices_meeting_if.any():
+                log.debug('\tNothing to replace using this rule')
+                continue
+
+            # get the then statement that we are going to replace with
+            then_statement = replace_rule.find('then')
+            pd_then_statement = get_pd_of_statement(then_statement)
+            then_name = pd_then_statement.index[0]
+            then_value = pd_then_statement[0]
+
+            assert if_name == then_name
+
+            pd_replaced.loc[indices_meeting_if, if_name] = then_value
+
+            log.debug('\t%d triplets replaced using this rule', indices_meeting_if.sum())
+
+        # drop duplicates
+        pd_replaced = pd_replaced.drop_duplicates()
+
+        return pd_replaced.reset_index(drop=True)
     
