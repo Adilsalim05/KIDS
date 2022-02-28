@@ -29,6 +29,7 @@ class DataManager:
  """  
     Class for managing the data.
  """
+
     def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
   
 """       
