@@ -26,11 +26,7 @@ from utilities import get_pd_of_statement
 
 
 class DataManager:
- """  
-    Class for managing the data.
- """
-
-   def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
+    def __init__(self, data_paths, map_file=None, data_rule_file=None, replace_rule_file=None):
   
 """       
         Class constructor for DataManager. All inputs are optional
