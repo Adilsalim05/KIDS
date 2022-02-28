@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 <rules>
-	<rule name="confers_resistance_to_antibiotic_after_30_mins">
-		<if>
-			<feature name="Predicate" value="confers resistance to antibiotic after 30 mins"></feature>
-		</if>
-		<then>
-			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
-		</then>
-	</rule>
+	
 	<rule name="confers_resistance_to_antibiotic">
 
 		<if>
@@ -70,11 +63,11 @@
 		<if>
 			<feature name="Predicate" value="is associated with resistance to antibiotic"></feature>
 		</if>
-	<then>
+		<then>
 			<feature name="Predicate" value="has"></feature>
 			<feature name="Object" value="response to antibiotic"></feature>
 		</then>
-			
+	</rule>	
 	<rule name="is_associated_with_resistance_to_antibiotic">
 		<if>
 			<feature name="Predicate" value="is associated with resistance to antibiotic"></feature>
@@ -84,4 +77,5 @@
 			<feature name="Predicate" value="has"></feature>
 			<feature name="Object" value="response to antibiotic"></feature>
 		</then>
+	</rule>
 </rules>
