@@ -57,6 +57,22 @@
 			<feature name="Object" value="response to antibiotic"></feature>
 		</then>
 	</rule>
-	
-
+		<rule name="is_associated_with_resistance_to_antibiotic">
+		<if>
+			<feature name="Predicate" value="is associated with resistance to antibiotic"></feature>
+		</if>
+	<then>
+			<feature name="Predicate" value="has"></feature>
+			<feature name="Object" value="response to antibiotic"></feature>
+		</then>
+			
+	<rule name="is_associated_with_resistance_to_antibiotic">
+		<if>
+			<feature name="Predicate" value="is associated with resistance to antibiotic"></feature>
+		</if>
+		
+		<then>
+			<feature name="Predicate" value="has"></feature>
+			<feature name="Object" value="response to antibiotic"></feature>
+		</then>
 </rules>
