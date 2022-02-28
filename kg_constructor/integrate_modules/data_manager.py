@@ -87,7 +87,7 @@ class DataManager:
         return pd_integrated.reset_index(drop=True)
 
     def map_name(self, pd_data):
- """   
+        """   
         Perform name mapping given data from single source.
 
         Inputs:
@@ -95,7 +95,7 @@ class DataManager:
 
         Returns:
             pd_mapped: (pd.DataFrame) Name mapped data.
-  """   
+        """   
        if not self.map_file:
             log.info('Mapping file not specified. Skipping name mapping...')
             return pd_data
