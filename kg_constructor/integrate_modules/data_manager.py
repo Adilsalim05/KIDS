@@ -134,7 +134,8 @@ class DataManager:
         #pd_mapped = pd_data.apply(has_mapping_name, axis=1, args=(dict_map, ))
 
         #return pd_mapped
-def infer(self, pd_data):
+        
+    def infer(self, pd_data):
         """
         Apply data rule and infer new data.
 
