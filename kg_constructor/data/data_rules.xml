@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <rules>
 	<rule name="confers_resistance_to_antibiotic">
-		<if>
+	<if>
 			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</if>
 		<then>
-			<feature name="Predicate" value="confers no resistance to antibiotic"></feature>
+			<feature name="Predicate" value="confers resistance to antibiotic"></feature>
 		</then>
 	</rule>
 	<rule name="confers_no_resistance_to_antibiotic">
