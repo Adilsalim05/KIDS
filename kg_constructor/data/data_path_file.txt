@@ -1,6 +1,6 @@
 Path	Source
 
-USER/Adilsalim05/KIDS/kg_constructor/data/dataset/GO_sal/GO_sal_Feb11_Final.txt	GO_sal
-USER/Adilsalim05/KIDS/kg_constructor/data/dataset/Salm/salm-Ab-Mar3.txt	Salm
-USER/Adilsalim05/KIDS/kg_constructor/data/dataset/Pathogen_Detection_DB/PathogenD_db_feb15.txt	Pathogen_Detection_DB
-USER/Adilsalim05/KIDS/kg_constructor/data/dataset/Salm/salm-Ab-Mar3.txt
+/home/Adilsalim05/KIDS/kg_constructor/data/dataset/GO_sal/GO_sal_Feb11_Final.txt	GO_sal
+/home/Adilsalim05/KIDS/kg_constructor/data/dataset/Salm/salm-Ab-Mar3.txt	Salm
+/home/Adilsalim05/KIDS/kg_constructor/data/dataset/Pathogen_Detection_DB/PathogenD_db_feb15.txt	Pathogen_Detection_DB
+/home/Adilsalim05/KIDS/kg_constructor/data/dataset/Salm/salm-Ab-Mar3.txt
