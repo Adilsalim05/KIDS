@@ -28,7 +28,7 @@
 	</rule>
 	<rule name="is_downregulated_by_antibiotic">
 		<if>
-			<feature name="Predicate" value="cis downregulated by antibiotic"></feature>
+			<feature name="Predicate" value="is downregulated by antibiotic"></feature>
 		</if>
 		<then>
 			<feature name="Predicate" value="is downregulated by antibiotic"></feature>
