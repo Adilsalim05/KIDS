@@ -370,7 +370,7 @@ class InconsistencyManager():
                 '{0:.10f}'.format(belief - mean_belief_of_conflicting_tuple)
             row_dict['Conflicting tuple info'] = str(conflicting_tuples)
 
-            pd_resolved_inconsistencies = pd_resolved_inconsistencies.concat(
+            pd_resolved_inconsistencies = pd_resolved_inconsistencies.append(
                 pd.DataFrame.from_records([row_dict]), ignore_index=True, sort=False)
 
         return pd_resolved_inconsistencies
