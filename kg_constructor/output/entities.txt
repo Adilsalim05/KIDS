@@ -150,12 +150,17 @@ ATPase-coupled cation transmembrane transporter activity
 ATPase-coupled lipid transmembrane transporter activity
 ATPase-coupled transmembrane transporter activity
 Acriflavine
+Amikacin
+Aminoglycoside
 Aminoglycosides
 Amoxicillin
 Ampicillin
+Apramycin
+Azithromycin
 Bacitracin
 Bam protein complex
 Beta-Lactam
+Bleomycin
 C-acetyltransferase activity
 C-acyltransferase activity
 C-methyltransferase activity
@@ -299,12 +304,14 @@ DNA-templated transcription, initiation
 DNA-templated transcription, termination
 DNA/RNA helicase activity
 Doxorubicin
+Efflux
 Erythromycin
 FAD binding
 FMN binding
 FMN biosynthetic process
 FMN metabolic process
 Florfenicol
+Fluoroquinolone
 FosA7.5
 Fosfomycin
 Fosmidomycin
@@ -340,6 +347,7 @@ Gram-negative-bacterium-type cell wall biogenesis
 GroEL-GroES complex
 GyrA
 GyrB
+Hygromycin
 HygromycinB
 IMP biosynthetic process
 IMP cyclohydrolase activity
@@ -420,12 +428,14 @@ L-tyrosine:2-oxoglutarate aminotransferase activity
 L-valine import across plasma membrane
 L-valine transmembrane transport
 L-valine transmembrane transporter activity
+Lincosamide
 MCR-1.6
 MCR-3.2
 MCR-4.1
 MCR-5.1
 MCR-9.1
 MacAB-TolC
+Macrolide
 Macrolides
 MdsABC
 MdtABC
@@ -539,12 +549,14 @@ PSLT107
 ParC
 ParE
 Penicillin
+Phenicol
 Phenicols
 PmrF
 QnrB19
 QnrB5
 QnrS2
 Quatarnary Ammonium compounds
+Quinolone
 Quinolones
 RBS
 RBS,
@@ -579,6 +591,7 @@ RNA-3'-phosphate cyclase activity
 RNA-DNA hybrid ribonuclease activity
 RecB
 Rifampicin
+Rifamycin
 S-(hydroxymethyl)glutathione dehydrogenase activity
 S-acyltransferase activity
 S-adenosyl-L-methionine binding
@@ -1697,8 +1710,11 @@ STMF1.36
 STMF1.40
 STMF1.42
 Spectinomycin
+Streptogra
+Streptogramin
 Streptogramines
 Streptomycin
+Streptothricin
 Sulfamethoxazole
 Sulfanilamide
 Sulfisoxazole
@@ -1709,6 +1725,8 @@ TTP catabolic process
 TTP metabolic process
 Tetracycline
 Ticarcillin
+Tigecycline
+Tobramycin
 Triclosan
 Trimethoprim
 UDP biosynthetic process
@@ -1744,10 +1762,13 @@ YedY
 [isocitrate dehydrogenase (NADP+)] kinase activity
 aac(2')-IIa
 aac(3)
+aac(3)-I
 aac(3)-II
 aac(3)-III
 aac(3)-IIa
 aac(3)-IId
+aac(3)-IIe
+aac(3)-IIg
 aac(3)-IV
 aac(3)-IVa
 aac(3)-Id
@@ -1755,6 +1776,8 @@ aac(3)-Iid
 aac(3)-Iva
 aac(3)-VI
 aac(3)-VIa
+aac(6')
+aac(6')-33
 aac(6')-I30
 aac(6')-IIa
 aac(6')-IIc
@@ -1762,11 +1785,16 @@ aac(6')-Iaa
 aac(6')-Iae
 aac(6')-Ib
 aac(6')-Ib-cr
+aac(6')-Ib-cr4
+aac(6')-Ib-cr5
 aac(6')-Ib-cr8
 aac(6')-Ib11
 aac(6')-Ib3
 aac(6')-Ib4
 aac(6')-Ic
+aac(6')-Ie
+aac(6')-Il
+aac(6')-Im
 aac(6')-Iy
 aac(6')Ib-cr
 aac(6)-31
@@ -1784,7 +1812,11 @@ aac3-VIa
 aac6-IId
 aac6-Iaa
 aac6-Iy
+aacA34
+aacA38
 aacA4
+aacA56
+aacA57
 aacC
 aacC(3')
 aacC(3)-IIa
@@ -1792,12 +1824,14 @@ aacC(6')
 aacC1
 aacC3
 aad1A
+aad9
 aadA
 aadA1
 aadA10
 aadA11
 aadA12
 aadA13
+aadA15
 aadA16
 aadA17
 aadA1b
@@ -1809,6 +1843,8 @@ aadA24
 aadA25
 aadA2b
 aadA3
+aadA31
+aadA4
 aadA5
 aadA6
 aadA7
@@ -1817,6 +1853,8 @@ aadA8b
 aadA9
 aadAB
 aadB
+aadD1
+aadD2
 aadE
 aadb
 aaeA
@@ -1824,6 +1862,7 @@ aaeB
 aaeX
 aas
 aat
+abc-f
 abequosyltransferase activity
 abrB
 accA
@@ -2090,8 +2129,11 @@ ansB
 ansP
 ant (3")-Ia
 ant(2")-Ia
+ant(2'')-Ia
 ant(3")-Ia
+ant(3'')
 ant(3'')-Ia
+ant(6)-Ia
 ant3''Ih
 anthranilate phosphoribosyltransferase activity
 antibiotic biosynthetic process
@@ -2104,15 +2146,22 @@ apaH
 apbC
 apbE
 apeE
+aph(2'')-I
+aph(2'')-IIa
+aph(2'')-Ia
 aph(3 )-Ii-iv
 aph(3")-Ia
 aph(3")-Ib
 aph(3'')
 aph(3'')-Ib
 aph(3')-II
+aph(3')-IIIa
 aph(3')-IIa
 aph(3')-Ia
 aph(3')-Ic
+aph(3')-Id
+aph(3')-VI
+aph(3')-VIa
 aph(3)-IIa
 aph(300)-lb
 aph(4)-Ia
@@ -2132,6 +2181,8 @@ aph4-ia
 aphA
 aphA-3
 aphA1
+aphA16
+aphA17
 aphA2
 aphAI
 apt
@@ -2203,6 +2254,7 @@ aromatic amino acid transmembrane transporter activity
 aromatic amino acid transport
 aromatic compound biosynthetic process
 aromatic compound catabolic process
+arr
 arr-2
 arr-3
 artI
@@ -2362,20 +2414,37 @@ bis(molybdopterin guanine dinucleotide)molybdenum biosynthetic process
 bis(molybdopterin guanine dinucleotide)molybdenum metabolic process
 bisC
 bla
+blaA
+blaACC
+blaACC-1
+blaACT
+blaACT-84
+blaBPU
 blaCARB
 blaCMY
 blaCTX-M
 blaDHA
+blaEC
 blaFOX
 blaHER
 blaHERA
+blaI
+blaKLUC
+blaKPC
+blaLAP
+blaNDM
 blaOXA
 blaOXY
 blaPER
 blaPSE
+blaR1
+blaSCO
 blaSHV
 blaSME
 blaTEM
+blaVEB
+blaVIM
+blaZ
 blacarB
 blc
 ble
@@ -2478,7 +2547,11 @@ cat2
 cat4
 catA
 catA1
+catA13
 catA2
+catA3
+catB
+catB11
 catB2
 catB3
 catB4
@@ -2699,6 +2772,8 @@ cellulose metabolic process
 ceramide catabolic process
 ceramide metabolic process
 cfa
+cfr
+cfxA
 chaA
 chaB
 channel activity
@@ -2781,10 +2856,13 @@ cmk
 cml
 cmlA
 cmlA1
+cmlA4
 cmlA5
+cmlA6
 cmlA9
 cmoA
 cmoB
+cmx
 co-translational protein modification
 coaA
 coaD
@@ -2840,6 +2918,7 @@ creD
 crl
 crotonobetaine-CoA ligase activity
 crp
+crpP
 crr
 csdA
 csgA
@@ -3055,6 +3134,7 @@ detoxification of inorganic compound
 developmental process
 dfp
 dfr1
+dfr7
 dfrA
 dfrA1
 dfrA10
@@ -3064,18 +3144,27 @@ dfrA15
 dfrA15b
 dfrA16
 dfrA17
+dfrA19
 dfrA20
 dfrA21
 dfrA22
 dfrA23
 dfrA25
 dfrA27
+dfrA29
+dfrA31
 dfrA32
+dfrA34
+dfrA36
 dfrA5
 dfrA7
 dfrA8
+dfrB1
 dfrB3
+dfrB4
+dfrB5
 dfrB6
+dfrF
 dfrI
 dgcQ
 dgkA
@@ -3277,7 +3366,9 @@ eptB
 era
 ereA
 ereA2
+ereD
 erfK
+erm
 ermB
 erpA
 errn(c)
@@ -3413,6 +3504,7 @@ ferrous iron binding
 ferrous iron transmembrane transporter activity
 ferroxidase activity
 fes
+fexA
 ffh
 fhlA
 fhuA
@@ -3499,6 +3591,7 @@ fljB
 flk
 flo
 floR
+floR2
 fluoride transmembrane transport
 fluoride transmembrane transporter activity
 fmt
@@ -3525,9 +3618,16 @@ formate oxidation
 formate transmembrane transporter activity
 formate transport
 formation of translation preinitiation complex
+fos
 fosA
 fosA3
+fosA4
 fosA7
+fosA8
+fosL
+fosL1
+fosL2
+fosX
 four-way junction helicase activity
 foxA
 fpr
@@ -3620,6 +3720,7 @@ gamma-aminobutyric acid metabolic process
 ganglioside catabolic process
 ganglioside metabolic process
 gapA
+gar
 garD
 garK
 garL
@@ -3865,6 +3966,7 @@ gppA
 gpsA
 gpt
 grcA
+grdA
 greA
 greB
 groEL
@@ -4373,6 +4475,7 @@ ligase activity, forming carbon-nitrogen bonds
 ligase activity, forming carbon-oxygen bonds
 ligase activity, forming carbon-sulfur bonds
 ligase activity, forming phosphoric ester bonds
+lin
 linB
 linG
 lincosamide
@@ -4425,6 +4528,10 @@ lldR
 lnt
 lnu(B)
 lnu(F)
+lnuA
+lnuC
+lnuF
+lnuG
 localization
 localization of cell
 localization within membrane
@@ -4589,7 +4696,9 @@ mcp1
 mcpF
 mcr-1
 mcr-1.1
+mcr-3
 mcr-4
+mcr-5
 mcr-9
 mdaA
 mdaB
@@ -4602,6 +4711,8 @@ mdoC
 mdoD
 mdoG
 mdoH
+mdsA
+mdsB
 mdtA
 mdtB
 mdtC
@@ -4619,6 +4730,7 @@ medium-chain fatty acid biosynthetic process
 medium-chain fatty acid catabolic process
 medium-chain fatty acid metabolic process
 mefB
+mefC
 melA
 melB
 melR
@@ -4794,6 +4906,7 @@ motA
 motB
 movement in host environment
 movement of cell or subcellular component
+mph
 mphA
 mphB
 mphE
@@ -5175,7 +5288,9 @@ oppC
 oppD
 oppF
 oqxA
+oqxA2
 oqxB
+oqxB2
 orf242
 orf245
 orf319
@@ -5623,6 +5738,8 @@ plsC
 plsX
 plsY
 pmbA
+pmrA
+pmrB
 pmrD
 pmrF
 pncA
@@ -6174,20 +6291,45 @@ pyruvate metabolic process
 qac
 qacE
 qacH
+qepA
+qepA1
+qepA2
+qepA4
+qepA8
 qnr-S1
 qnr-S5
+qnrA
+qnrA1
+qnrA3
+qnrB
+qnrB1
+qnrB17
 qnrB19
 qnrB2
+qnrB38
 qnrB4
 qnrB6
+qnrB7
+qnrB77
 qnrB88
+qnrB9
+qnrB91
+qnrD
 qnrD1
 qnrD2
 qnrE1
+qnrE2
+qnrS
 qnrS1
+qnrS11
+qnrS13
 qnrS2
 qnrS3
 qnrS4
+qnrVC
+qnrVC1
+qnrVC4
+qnrVC5
 qor
 qseB
 qseC
@@ -6656,6 +6798,7 @@ rmbA
 rmf
 rmlA
 rmtB
+rmtB1
 rmtC
 rmtE1
 rmuC
@@ -6795,6 +6938,7 @@ sapC
 sapD
 sapF
 sarcosine oxidase activity
+sat2
 sat4
 sbcB
 sbcC
@@ -7166,6 +7310,7 @@ sul
 sul1
 sul2
 sul3
+sul4
 sulA
 sulII
 sulfate assimilation
@@ -7302,15 +7447,25 @@ terpenoid biosynthetic process, mevalonate-independent
 terpenoid metabolic process
 tesA
 tesB
+tet
 tetA
 tetB
 tetC
 tetD
+tetE
 tetG
+tetH
+tetJ
 tetM
 tetO
 tetR
 tetS
+tetW
+tetX_2
+tetX_4
+tetX_5
+tetX_6
+tetY
 tetraacyldisaccharide 4'-kinase activity
 tetrahydrobiopterin biosynthetic process
 tetrahydrobiopterin metabolic process
@@ -7694,6 +7849,7 @@ vanX
 vanY
 vapB
 vapC
+vat
 viaA
 virK
 visC
