@@ -60,7 +60,7 @@ def main():
 
     # DataProcessor object
     data_processor = DataProcessor(
-        config_parser.getstr('final_kg'),
+        config_parser.getstr('kg_final'),
         config_parser.getstr('label_rules'),
         config_parser.getstr('domain_range'))
 
