@@ -10,6 +10,10 @@ Description:
 
 To-do:
 """
+#to stop the futureWarning that I am getting for changing .append to .concat in the future version of pandas
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 # standard imports
 import logging as log
 import os
