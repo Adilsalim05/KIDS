@@ -9,7 +9,8 @@ hg_dir=`pwd`
 # common variabls
 config_dir="$hg_dir/run/configuration"
 data_dir="$hg_dir/data"
-default_data_dir="/path/to/data/directory"
+#default_data_dir="/path/to/data/directory"
+default_data_dir= "/Users/adilsalim/KIDS/kg_constructor"
 
 # update paths in config.sh
 echo "Updating filepaths in 'config.sh'..."
