@@ -55,7 +55,7 @@ I am using macOS so I install gsed first and then run the following code.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
+replace sed in the the file run_postprocess.sh to gsed and then run the following. (for Mac)
 ```
 ./run_postprocess.sh
 ```
