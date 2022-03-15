@@ -36,7 +36,7 @@ python3 postprocess_data.py
 
 # process entity_full_names.txt
 cp $entity_full_names_filepath $entity_full_names_copy_filepath
-sed  -i -E 's|\((.+:.+:.+)(:)(.+)\)|\1#SEMICOLON#\3|g' $entity_full_names_copy_filepath
+gsed  -i -E 's|\((.+:.+:.+)(:)(.+)\)|\1#SEMICOLON#\3|g' $entity_full_names_copy_filepath
 sed  -i -E 's| |#SPACE#|g' $entity_full_names_copy_filepath
 sed  -i -E 's|,|#COMMA#|g' $entity_full_names_copy_filepath
 
