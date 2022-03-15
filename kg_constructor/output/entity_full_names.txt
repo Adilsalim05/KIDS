@@ -5110,6 +5110,87 @@ concept:gene:zraS
 concept:gene:zupT
 concept:gene:zur
 concept:gene:zwf
+concept:antibiotic:Acriflavine
+concept:antibiotic:Amikacin
+concept:antibiotic:Aminoglycoside
+concept:antibiotic:Aminoglycosides
+concept:antibiotic:Amoxicillin
+concept:antibiotic:Ampicillin
+concept:antibiotic:Apramycin
+concept:antibiotic:Azithromycin
+concept:antibiotic:Bacitracin
+concept:antibiotic:Beta-Lactam
+concept:antibiotic:Bleomycin
+concept:antibiotic:Cafepime
+concept:antibiotic:Carbapenem
+concept:antibiotic:Cefotaxime
+concept:antibiotic:Cefoxitin
+concept:antibiotic:Ceftazidime
+concept:antibiotic:Ceftriaxone
+concept:antibiotic:Cephalolecithin
+concept:antibiotic:Cephalosporin
+concept:antibiotic:Cephalosporins
+concept:antibiotic:Cephalothin
+concept:antibiotic:Cephalothine
+concept:antibiotic:Cephamycins
+concept:antibiotic:Chloramphenicol
+concept:antibiotic:Chlorhexidine
+concept:antibiotic:Ciprofloxacin
+concept:antibiotic:Class I Integron
+concept:antibiotic:Clavulanic Acid
+concept:antibiotic:Cloxacillin
+concept:antibiotic:Colistin
+concept:antibiotic:Cotrimoxazole
+concept:antibiotic:Doxorubicin
+concept:antibiotic:Efflux
+concept:antibiotic:Erythromycin
+concept:antibiotic:Florfenicol
+concept:antibiotic:Fluoroquinolone
+concept:antibiotic:Fosfomycin
+concept:antibiotic:Fosmidomycin
+concept:antibiotic:Gentamicin
+concept:antibiotic:Hygromycin
+concept:antibiotic:HygromycinB
+concept:antibiotic:Isoniazid
+concept:antibiotic:Kanamycin
+concept:antibiotic:Kasugamycin
+concept:antibiotic:Lincosamide
+concept:antibiotic:Macrolide
+concept:antibiotic:Macrolides
+concept:antibiotic:Moxalactam
+concept:antibiotic:Multiple Antibiotics
+concept:antibiotic:Nalidixic Acid
+concept:antibiotic:Nitrofurantoin
+concept:antibiotic:Norfloxacin
+concept:antibiotic:Ofloxacin
+concept:antibiotic:Other Classes
+concept:antibiotic:Oxacillin
+concept:antibiotic:Penicillin
+concept:antibiotic:Phenicol
+concept:antibiotic:Phenicols
+concept:antibiotic:Quatarnary Ammonium compounds
+concept:antibiotic:Quinolone
+concept:antibiotic:Quinolones
+concept:antibiotic:Rifampicin
+concept:antibiotic:Rifamycin
+concept:antibiotic:Spectinomycin
+concept:antibiotic:Streptogra
+concept:antibiotic:Streptogramin
+concept:antibiotic:Streptogramines
+concept:antibiotic:Streptomycin
+concept:antibiotic:Streptothricin
+concept:antibiotic:Sulfamethoxazole
+concept:antibiotic:Sulfanilamide
+concept:antibiotic:Sulfisoxazole
+concept:antibiotic:Sulfonamide
+concept:antibiotic:Tetracycline
+concept:antibiotic:Ticarcillin
+concept:antibiotic:Tigecycline
+concept:antibiotic:Tobramycin
+concept:antibiotic:Triclosan
+concept:antibiotic:Trimethoprim
+concept:antibiotic:Vancomycin
+concept:antibiotic:lincosamide
 concept:biological_process:'de novo' AMP biosynthetic process
 concept:biological_process:'de novo' GDP-L-fucose biosynthetic process
 concept:biological_process:'de novo' IMP biosynthetic process
@@ -7165,6 +7246,179 @@ concept:biological_process:xylulose 5-phosphate metabolic process
 concept:biological_process:zinc ion homeostasis
 concept:biological_process:zinc ion transmembrane transport
 concept:biological_process:zinc ion transport
+concept:cellular_component:6-phosphofructokinase complex
+concept:cellular_component:ATP-binding cassette (ABC) transporter complex
+concept:cellular_component:ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing
+concept:cellular_component:ATPase dependent transmembrane transport complex
+concept:cellular_component:Bam protein complex
+concept:cellular_component:DNA helicase complex
+concept:cellular_component:DNA polymerase III complex
+concept:cellular_component:DNA polymerase complex
+concept:cellular_component:DNA repair complex
+concept:cellular_component:DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex
+concept:cellular_component:Gram-negative-bacterium-type cell wall
+concept:cellular_component:GroEL-GroES complex
+concept:cellular_component:NADH dehydrogenase complex
+concept:cellular_component:TAM protein secretion complex
+concept:cellular_component:TAT protein transport complex
+concept:cellular_component:[Ni-Fe] hydrogenase complex
+concept:cellular_component:acetolactate synthase complex
+concept:cellular_component:anaerobic ribonucleoside-triphosphate reductase complex
+concept:cellular_component:anatomical entity
+concept:cellular_component:bacterial microcompartment
+concept:cellular_component:bacterial nucleoid
+concept:cellular_component:bacterial-type flagellum
+concept:cellular_component:bacterial-type flagellum filament
+concept:cellular_component:bacterial-type flagellum filament cap
+concept:cellular_component:biological entity
+concept:cellular_component:carbamoyl-phosphate synthase complex
+concept:cellular_component:catalytic complex
+concept:cellular_component:cell
+concept:cellular_component:cell division site
+concept:cellular_component:cell envelope
+concept:cellular_component:cell envelope Sec protein transport complex
+concept:cellular_component:cell outer membrane
+concept:cellular_component:cell periphery
+concept:cellular_component:cell projection
+concept:cellular_component:cell septum
+concept:cellular_component:cell surface
+concept:cellular_component:cell wall
+concept:cellular_component:cellular anatomical entity
+concept:cellular_component:chaperone complex
+concept:cellular_component:chaperonin ATPase complex
+concept:cellular_component:chromosome
+concept:cellular_component:connected anatomical structure
+concept:cellular_component:cytochrome complex
+concept:cellular_component:cytochrome o ubiquinol oxidase complex
+concept:cellular_component:cytoplasm
+concept:cellular_component:cytoplasmic side of membrane
+concept:cellular_component:cytoplasmic side of plasma membrane
+concept:cellular_component:cytosol
+concept:cellular_component:cytosolic large ribosomal subunit
+concept:cellular_component:cytosolic ribosome
+concept:cellular_component:cytosolic small ribosomal subunit
+concept:cellular_component:dihydrolipoyl dehydrogenase complex
+concept:cellular_component:dimethyl sulfoxide reductase complex
+concept:cellular_component:efflux pump complex
+concept:cellular_component:endodeoxyribonuclease complex
+concept:cellular_component:endopeptidase Clp complex
+concept:cellular_component:endoribonuclease complex
+concept:cellular_component:enterobactin synthetase complex
+concept:cellular_component:envelope
+concept:cellular_component:ethanolamine ammonia-lyase complex
+concept:cellular_component:ethanolamine degradation polyhedral organelle
+concept:cellular_component:excinuclease repair complex
+concept:cellular_component:exodeoxyribonuclease V complex
+concept:cellular_component:external encapsulating structure
+concept:cellular_component:external side of plasma membrane
+concept:cellular_component:extracellular membrane-bounded organelle
+concept:cellular_component:extracellular organelle
+concept:cellular_component:extracellular region
+concept:cellular_component:extrinsic component of cytoplasmic side of plasma membrane
+concept:cellular_component:extrinsic component of membrane
+concept:cellular_component:extrinsic component of plasma membrane
+concept:cellular_component:formate dehydrogenase complex
+concept:cellular_component:fumarate reductase complex
+concept:cellular_component:glycerol-3-phosphate dehydrogenase complex
+concept:cellular_component:glycine cleavage complex
+concept:cellular_component:host cell
+concept:cellular_component:host cell cytoplasm
+concept:cellular_component:host cell cytoplasm part
+concept:cellular_component:host cell cytosol
+concept:cellular_component:host cell endoplasmic reticulum
+concept:cellular_component:host cell endosome
+concept:cellular_component:host cell membrane
+concept:cellular_component:host cell part
+concept:cellular_component:host cellular component
+concept:cellular_component:host intracellular membrane-bounded organelle
+concept:cellular_component:host intracellular organelle
+concept:cellular_component:host intracellular part
+concept:cellular_component:host intracellular region
+concept:cellular_component:integral component of cell outer membrane
+concept:cellular_component:integral component of external side of plasma membrane
+concept:cellular_component:integral component of membrane
+concept:cellular_component:integral component of plasma membrane
+concept:cellular_component:intracellular anatomical structure
+concept:cellular_component:intracellular membrane-bounded organelle
+concept:cellular_component:intracellular non-membrane-bounded organelle
+concept:cellular_component:intracellular organelle
+concept:cellular_component:intracellular protein-containing complex
+concept:cellular_component:intrinsic component of cell outer membrane
+concept:cellular_component:intrinsic component of external side of plasma membrane
+concept:cellular_component:intrinsic component of membrane
+concept:cellular_component:intrinsic component of periplasmic side of cell outer membrane
+concept:cellular_component:intrinsic component of plasma membrane
+concept:cellular_component:iron-sulfur cluster transfer complex
+concept:cellular_component:large ribosomal subunit
+concept:cellular_component:maltose transport complex
+concept:cellular_component:material anatomical entity
+concept:cellular_component:membrane
+concept:cellular_component:membrane protein complex
+concept:cellular_component:membrane-bounded organelle
+concept:cellular_component:methyltransferase complex
+concept:cellular_component:mismatch repair complex
+concept:cellular_component:nitrite reductase complex [NAD(P)H]
+concept:cellular_component:non-membrane-bounded organelle
+concept:cellular_component:nucleoid
+concept:cellular_component:organelle
+concept:cellular_component:outer membrane
+concept:cellular_component:outer membrane-bounded periplasmic space
+concept:cellular_component:oxidoreductase complex
+concept:cellular_component:oxoglutarate dehydrogenase complex
+concept:cellular_component:peptidoglycan-based cell wall
+concept:cellular_component:periplasmic side of cell outer membrane
+concept:cellular_component:periplasmic space
+concept:cellular_component:phenylalanine-tRNA ligase complex
+concept:cellular_component:phosphopantothenoylcysteine decarboxylase complex
+concept:cellular_component:phosphopyruvate hydratase complex
+concept:cellular_component:pilus
+concept:cellular_component:plasma membrane
+concept:cellular_component:plasma membrane fumarate reductase complex
+concept:cellular_component:plasma membrane protein complex
+concept:cellular_component:plasma membrane respirasome
+concept:cellular_component:plasma membrane respiratory chain complex I
+concept:cellular_component:plasma membrane respiratory chain complex II
+concept:cellular_component:plasma membrane succinate dehydrogenase complex
+concept:cellular_component:pore complex
+concept:cellular_component:propanediol degradation polyhedral organelle
+concept:cellular_component:protein-DNA complex
+concept:cellular_component:protein-containing complex
+concept:cellular_component:proton-transporting ATP synthase complex
+concept:cellular_component:proton-transporting ATP synthase complex, catalytic core F(1)
+concept:cellular_component:proton-transporting ATP synthase complex, coupling factor F(o)
+concept:cellular_component:proton-transporting two-sector ATPase complex
+concept:cellular_component:proton-transporting two-sector ATPase complex, catalytic domain
+concept:cellular_component:proton-transporting two-sector ATPase complex, proton-transporting domain
+concept:cellular_component:replication fork
+concept:cellular_component:replisome
+concept:cellular_component:respirasome
+concept:cellular_component:respiratory chain complex
+concept:cellular_component:respiratory chain complex I
+concept:cellular_component:respiratory chain complex II
+concept:cellular_component:ribonuclease H2 complex
+concept:cellular_component:ribonuclease P complex
+concept:cellular_component:ribonucleoprotein complex
+concept:cellular_component:ribonucleoside-diphosphate reductase complex
+concept:cellular_component:ribose phosphate diphosphokinase complex
+concept:cellular_component:ribosomal subunit
+concept:cellular_component:ribosome
+concept:cellular_component:side of membrane
+concept:cellular_component:small ribosomal subunit
+concept:cellular_component:succinate dehydrogenase complex
+concept:cellular_component:succinate-CoA ligase complex
+concept:cellular_component:succinate-CoA ligase complex (ADP-forming)
+concept:cellular_component:sulfite reductase complex (NADPH)
+concept:cellular_component:sulfurtransferase complex
+concept:cellular_component:symbiont-containing vacuole
+concept:cellular_component:tRNA methyltransferase complex
+concept:cellular_component:transferase complex
+concept:cellular_component:transferase complex, transferring phosphorus-containing groups
+concept:cellular_component:transmembrane transporter complex
+concept:cellular_component:transporter complex
+concept:cellular_component:tricarboxylic acid cycle enzyme complex
+concept:cellular_component:type II protein secretion system complex
+concept:cellular_component:type III protein secretion system complex
+concept:cellular_component:type IV pilus
 concept:molecular_function:(1,4)-alpha-D-glucan 1-alpha-D-glucosylmutase activity
 concept:molecular_function:(S)-2-hydroxy-acid oxidase activity
 concept:molecular_function:1,4-alpha-glucan branching enzyme activity
@@ -9195,257 +9449,3 @@ concept:molecular_function:zinc ion binding
 concept:molecular_function:zinc ion transmembrane transport
 concept:molecular_function:zinc ion transmembrane transporter activity
 concept:molecular_function:zinc ion transport
-concept:cellular_component:6-phosphofructokinase complex
-concept:cellular_component:ATP-binding cassette (ABC) transporter complex
-concept:cellular_component:ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing
-concept:cellular_component:ATPase dependent transmembrane transport complex
-concept:cellular_component:Bam protein complex
-concept:cellular_component:DNA helicase complex
-concept:cellular_component:DNA polymerase III complex
-concept:cellular_component:DNA polymerase complex
-concept:cellular_component:DNA repair complex
-concept:cellular_component:DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex
-concept:cellular_component:Gram-negative-bacterium-type cell wall
-concept:cellular_component:GroEL-GroES complex
-concept:cellular_component:NADH dehydrogenase complex
-concept:cellular_component:TAM protein secretion complex
-concept:cellular_component:TAT protein transport complex
-concept:cellular_component:[Ni-Fe] hydrogenase complex
-concept:cellular_component:acetolactate synthase complex
-concept:cellular_component:anaerobic ribonucleoside-triphosphate reductase complex
-concept:cellular_component:anatomical entity
-concept:cellular_component:bacterial microcompartment
-concept:cellular_component:bacterial nucleoid
-concept:cellular_component:bacterial-type flagellum
-concept:cellular_component:bacterial-type flagellum filament
-concept:cellular_component:bacterial-type flagellum filament cap
-concept:cellular_component:biological entity
-concept:cellular_component:carbamoyl-phosphate synthase complex
-concept:cellular_component:catalytic complex
-concept:cellular_component:cell
-concept:cellular_component:cell division site
-concept:cellular_component:cell envelope
-concept:cellular_component:cell envelope Sec protein transport complex
-concept:cellular_component:cell outer membrane
-concept:cellular_component:cell periphery
-concept:cellular_component:cell projection
-concept:cellular_component:cell septum
-concept:cellular_component:cell surface
-concept:cellular_component:cell wall
-concept:cellular_component:cellular anatomical entity
-concept:cellular_component:chaperone complex
-concept:cellular_component:chaperonin ATPase complex
-concept:cellular_component:chromosome
-concept:cellular_component:connected anatomical structure
-concept:cellular_component:cytochrome complex
-concept:cellular_component:cytochrome o ubiquinol oxidase complex
-concept:cellular_component:cytoplasm
-concept:cellular_component:cytoplasmic side of membrane
-concept:cellular_component:cytoplasmic side of plasma membrane
-concept:cellular_component:cytosol
-concept:cellular_component:cytosolic large ribosomal subunit
-concept:cellular_component:cytosolic ribosome
-concept:cellular_component:cytosolic small ribosomal subunit
-concept:cellular_component:dihydrolipoyl dehydrogenase complex
-concept:cellular_component:dimethyl sulfoxide reductase complex
-concept:cellular_component:efflux pump complex
-concept:cellular_component:endodeoxyribonuclease complex
-concept:cellular_component:endopeptidase Clp complex
-concept:cellular_component:endoribonuclease complex
-concept:cellular_component:enterobactin synthetase complex
-concept:cellular_component:envelope
-concept:cellular_component:ethanolamine ammonia-lyase complex
-concept:cellular_component:ethanolamine degradation polyhedral organelle
-concept:cellular_component:excinuclease repair complex
-concept:cellular_component:exodeoxyribonuclease V complex
-concept:cellular_component:external encapsulating structure
-concept:cellular_component:external side of plasma membrane
-concept:cellular_component:extracellular membrane-bounded organelle
-concept:cellular_component:extracellular organelle
-concept:cellular_component:extracellular region
-concept:cellular_component:extrinsic component of cytoplasmic side of plasma membrane
-concept:cellular_component:extrinsic component of membrane
-concept:cellular_component:extrinsic component of plasma membrane
-concept:cellular_component:formate dehydrogenase complex
-concept:cellular_component:fumarate reductase complex
-concept:cellular_component:glycerol-3-phosphate dehydrogenase complex
-concept:cellular_component:glycine cleavage complex
-concept:cellular_component:host cell
-concept:cellular_component:host cell cytoplasm
-concept:cellular_component:host cell cytoplasm part
-concept:cellular_component:host cell cytosol
-concept:cellular_component:host cell endoplasmic reticulum
-concept:cellular_component:host cell endosome
-concept:cellular_component:host cell membrane
-concept:cellular_component:host cell part
-concept:cellular_component:host cellular component
-concept:cellular_component:host intracellular membrane-bounded organelle
-concept:cellular_component:host intracellular organelle
-concept:cellular_component:host intracellular part
-concept:cellular_component:host intracellular region
-concept:cellular_component:integral component of cell outer membrane
-concept:cellular_component:integral component of external side of plasma membrane
-concept:cellular_component:integral component of membrane
-concept:cellular_component:integral component of plasma membrane
-concept:cellular_component:intracellular anatomical structure
-concept:cellular_component:intracellular membrane-bounded organelle
-concept:cellular_component:intracellular non-membrane-bounded organelle
-concept:cellular_component:intracellular organelle
-concept:cellular_component:intracellular protein-containing complex
-concept:cellular_component:intrinsic component of cell outer membrane
-concept:cellular_component:intrinsic component of external side of plasma membrane
-concept:cellular_component:intrinsic component of membrane
-concept:cellular_component:intrinsic component of periplasmic side of cell outer membrane
-concept:cellular_component:intrinsic component of plasma membrane
-concept:cellular_component:iron-sulfur cluster transfer complex
-concept:cellular_component:large ribosomal subunit
-concept:cellular_component:maltose transport complex
-concept:cellular_component:material anatomical entity
-concept:cellular_component:membrane
-concept:cellular_component:membrane protein complex
-concept:cellular_component:membrane-bounded organelle
-concept:cellular_component:methyltransferase complex
-concept:cellular_component:mismatch repair complex
-concept:cellular_component:nitrite reductase complex [NAD(P)H]
-concept:cellular_component:non-membrane-bounded organelle
-concept:cellular_component:nucleoid
-concept:cellular_component:organelle
-concept:cellular_component:outer membrane
-concept:cellular_component:outer membrane-bounded periplasmic space
-concept:cellular_component:oxidoreductase complex
-concept:cellular_component:oxoglutarate dehydrogenase complex
-concept:cellular_component:peptidoglycan-based cell wall
-concept:cellular_component:periplasmic side of cell outer membrane
-concept:cellular_component:periplasmic space
-concept:cellular_component:phenylalanine-tRNA ligase complex
-concept:cellular_component:phosphopantothenoylcysteine decarboxylase complex
-concept:cellular_component:phosphopyruvate hydratase complex
-concept:cellular_component:pilus
-concept:cellular_component:plasma membrane
-concept:cellular_component:plasma membrane fumarate reductase complex
-concept:cellular_component:plasma membrane protein complex
-concept:cellular_component:plasma membrane respirasome
-concept:cellular_component:plasma membrane respiratory chain complex I
-concept:cellular_component:plasma membrane respiratory chain complex II
-concept:cellular_component:plasma membrane succinate dehydrogenase complex
-concept:cellular_component:pore complex
-concept:cellular_component:propanediol degradation polyhedral organelle
-concept:cellular_component:protein-DNA complex
-concept:cellular_component:protein-containing complex
-concept:cellular_component:proton-transporting ATP synthase complex
-concept:cellular_component:proton-transporting ATP synthase complex, catalytic core F(1)
-concept:cellular_component:proton-transporting ATP synthase complex, coupling factor F(o)
-concept:cellular_component:proton-transporting two-sector ATPase complex
-concept:cellular_component:proton-transporting two-sector ATPase complex, catalytic domain
-concept:cellular_component:proton-transporting two-sector ATPase complex, proton-transporting domain
-concept:cellular_component:replication fork
-concept:cellular_component:replisome
-concept:cellular_component:respirasome
-concept:cellular_component:respiratory chain complex
-concept:cellular_component:respiratory chain complex I
-concept:cellular_component:respiratory chain complex II
-concept:cellular_component:ribonuclease H2 complex
-concept:cellular_component:ribonuclease P complex
-concept:cellular_component:ribonucleoprotein complex
-concept:cellular_component:ribonucleoside-diphosphate reductase complex
-concept:cellular_component:ribose phosphate diphosphokinase complex
-concept:cellular_component:ribosomal subunit
-concept:cellular_component:ribosome
-concept:cellular_component:side of membrane
-concept:cellular_component:small ribosomal subunit
-concept:cellular_component:succinate dehydrogenase complex
-concept:cellular_component:succinate-CoA ligase complex
-concept:cellular_component:succinate-CoA ligase complex (ADP-forming)
-concept:cellular_component:sulfite reductase complex (NADPH)
-concept:cellular_component:sulfurtransferase complex
-concept:cellular_component:symbiont-containing vacuole
-concept:cellular_component:tRNA methyltransferase complex
-concept:cellular_component:transferase complex
-concept:cellular_component:transferase complex, transferring phosphorus-containing groups
-concept:cellular_component:transmembrane transporter complex
-concept:cellular_component:transporter complex
-concept:cellular_component:tricarboxylic acid cycle enzyme complex
-concept:cellular_component:type II protein secretion system complex
-concept:cellular_component:type III protein secretion system complex
-concept:cellular_component:type IV pilus
-concept:antibiotic:Acriflavine
-concept:antibiotic:Amikacin
-concept:antibiotic:Aminoglycoside
-concept:antibiotic:Aminoglycosides
-concept:antibiotic:Amoxicillin
-concept:antibiotic:Ampicillin
-concept:antibiotic:Apramycin
-concept:antibiotic:Azithromycin
-concept:antibiotic:Bacitracin
-concept:antibiotic:Beta-Lactam
-concept:antibiotic:Bleomycin
-concept:antibiotic:Cafepime
-concept:antibiotic:Carbapenem
-concept:antibiotic:Cefotaxime
-concept:antibiotic:Cefoxitin
-concept:antibiotic:Ceftazidime
-concept:antibiotic:Ceftriaxone
-concept:antibiotic:Cephalolecithin
-concept:antibiotic:Cephalosporin
-concept:antibiotic:Cephalosporins
-concept:antibiotic:Cephalothin
-concept:antibiotic:Cephalothine
-concept:antibiotic:Cephamycins
-concept:antibiotic:Chloramphenicol
-concept:antibiotic:Chlorhexidine
-concept:antibiotic:Ciprofloxacin
-concept:antibiotic:Class I Integron
-concept:antibiotic:Clavulanic Acid
-concept:antibiotic:Cloxacillin
-concept:antibiotic:Colistin
-concept:antibiotic:Cotrimoxazole
-concept:antibiotic:Doxorubicin
-concept:antibiotic:Efflux
-concept:antibiotic:Erythromycin
-concept:antibiotic:Florfenicol
-concept:antibiotic:Fluoroquinolone
-concept:antibiotic:Fosfomycin
-concept:antibiotic:Fosmidomycin
-concept:antibiotic:Gentamicin
-concept:antibiotic:Hygromycin
-concept:antibiotic:HygromycinB
-concept:antibiotic:Isoniazid
-concept:antibiotic:Kanamycin
-concept:antibiotic:Kasugamycin
-concept:antibiotic:Lincosamide
-concept:antibiotic:Macrolide
-concept:antibiotic:Macrolides
-concept:antibiotic:Moxalactam
-concept:antibiotic:Multiple Antibiotics
-concept:antibiotic:Nalidixic Acid
-concept:antibiotic:Nitrofurantoin
-concept:antibiotic:Norfloxacin
-concept:antibiotic:Ofloxacin
-concept:antibiotic:Other Classes
-concept:antibiotic:Oxacillin
-concept:antibiotic:Penicillin
-concept:antibiotic:Phenicol
-concept:antibiotic:Phenicols
-concept:antibiotic:Quatarnary Ammonium compounds
-concept:antibiotic:Quinolone
-concept:antibiotic:Quinolones
-concept:antibiotic:Rifampicin
-concept:antibiotic:Rifamycin
-concept:antibiotic:Spectinomycin
-concept:antibiotic:Streptogra
-concept:antibiotic:Streptogramin
-concept:antibiotic:Streptogramines
-concept:antibiotic:Streptomycin
-concept:antibiotic:Streptothricin
-concept:antibiotic:Sulfamethoxazole
-concept:antibiotic:Sulfanilamide
-concept:antibiotic:Sulfisoxazole
-concept:antibiotic:Sulfonamide
-concept:antibiotic:Tetracycline
-concept:antibiotic:Ticarcillin
-concept:antibiotic:Tigecycline
-concept:antibiotic:Tobramycin
-concept:antibiotic:Triclosan
-concept:antibiotic:Trimethoprim
-concept:antibiotic:Vancomycin
-concept:antibiotic:lincosamide
