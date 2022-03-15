@@ -51,9 +51,10 @@ data_path = /path/to/data/directorydata_path_file_toy.txt
 ### Step 4: Run postprocessing.
 Postprocess the knowledge graph created in Step 3 to generate hypothesis generator friendly files. 
 I am using macOS so I install gsed first and then run the following code. 
-''''
+
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-'''
+```
 
 ```
 ./run_postprocess.sh
