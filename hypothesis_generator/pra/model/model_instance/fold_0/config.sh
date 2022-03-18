@@ -4,8 +4,13 @@
 start_relation="confers#SPACE#resistance#SPACE#to#SPACE#antibiotic"
 
 # The path to the directory of your data
+<<<<<<< HEAD
 #DATA_PATH="/path/to/data/directory/kb/folds/fold_0"
 DATA_PATH ="/Users/adilsalim/KIDS/kg_constructor/output/folds/fold_0"
+=======
+DATA_PATH="/path/to/data/directory/kb/folds/fold_0"
+#DATA_PATH ="/Users/adilsalim/KIDS/hypothesis_generator/data/kb/folds/fold_0"
+>>>>>>> 32b456eeecb1d89e0ed16ca0e076ad25d0754dc7
 
 # This is deprecated
 use_negatives=false
