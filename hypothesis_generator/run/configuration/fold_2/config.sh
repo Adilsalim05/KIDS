@@ -4,8 +4,8 @@
 start_relation="confers#SPACE#resistance#SPACE#to#SPACE#antibiotic"
 
 # The path to the directory of your data
-DATA_PATH="/path/to/data/directory/kb/folds/fold_2"
-
+#DATA_PATH="/path/to/data/directory/kb/folds/fold_2"
+DATA_PATH="/Users/adilsalim/KIDS/kg_constructor/data/kb/folds/fold_2"
 # This is deprecated
 use_negatives=false
 
