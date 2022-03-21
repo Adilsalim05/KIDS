@@ -1,6 +1,6 @@
 # Knowledge Graph (KG) Constructor
 This folder contains source code responsible for **1)** creating the KG using knowledge extracted from the datasets available online and **2)** resolving any inconsistencies that may rise during the KG construction process. The KG created here will be used to train the [Hypothesis Generator](/hypothesis_generator).
-
+#this line is only for test purpose. 
 ## Directories
 * <code>[./configuration](./configuration)</code>: Contains **.ini** files used for setting up the configurations.
 * <code>[./data](./data)</code>: Contains the dataset used to create the KG. It also contains other data files used as an input for creating the KG. Please refer to its own [README](./data/README.md) file for its own file structure.
@@ -49,7 +49,13 @@ data_path = /path/to/data/directorydata_path_file_toy.txt
 ```
 
 ### Step 4: Run postprocessing.
-Postprocess the knowledge graph created in Step 3 to generate hypothesis generator friendly files.
+Postprocess the knowledge graph created in Step 3 to generate hypothesis generator friendly files. 
+I am using macOS so I install gsed first and then run the following code. 
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+replace sed in the the file run_postprocess.sh to gsed and then run the following. (for Mac)
 ```
 ./run_postprocess.sh
 ```

@@ -36,28 +36,28 @@ python3 postprocess_data.py
 
 # process entity_full_names.txt
 cp $entity_full_names_filepath $entity_full_names_copy_filepath
-sed  -i -E 's|(.+:.+:.+)(:)(.+)|\1#SEMICOLON#\3|g' $entity_full_names_copy_filepath
-sed  -i -E 's| |#SPACE#|g' $entity_full_names_copy_filepath
-sed  -i -E 's|,|#COMMA#|g' $entity_full_names_copy_filepath
+gsed  -i -E 's|(.+:.+:.+)(:)(.+)|\1#SEMICOLON#\3|g' $entity_full_names_copy_filepath
+gsed  -i -E 's| |#SPACE#|g' $entity_full_names_copy_filepath
+gsed  -i -E 's|,|#COMMA#|g' $entity_full_names_copy_filepath
 
 # process entities.txt
-sed  -i -E 's|:|#SEMICOLON#|g' $entities_filepath
-sed  -i -E 's| |#SPACE#|g' $entities_filepath
-sed  -i -E 's|,|#COMMA#|g' $entities_filepath
+gsed  -i -E 's|:|#SEMICOLON#|g' $entities_filepath
+gsed  -i -E 's| |#SPACE#|g' $entities_filepath
+gsed  -i -E 's|,|#COMMA#|g' $entities_filepath
 
 # process data.txt
 cp $data_filepath $data_copy_filepath
-sed  -i -E 's|:|#SEMICOLON#|g' $data_copy_filepath
-sed  -i -E 's| |#SPACE#|g' $data_copy_filepath
-sed  -i -E 's|,|#COMMA#|g' $data_copy_filepath
+gsed  -i -E 's|:|#SEMICOLON#|g' $data_copy_filepath
+gsed  -i -E 's| |#SPACE#|g' $data_copy_filepath
+gsed  -i -E 's|,|#COMMA#|g' $data_copy_filepath
 
 # process domain_range.txt
 cp $dr_filepath $dr_copy_filepath
-sed -i '1d' $dr_copy_filepath # remove first line
+gsed -i '1d' $dr_copy_filepath # remove first line
 
-sed  -i -E 's|:|#SEMICOLON#|g' $dr_copy_filepath
-sed  -i -E 's| |#SPACE#|g' $dr_copy_filepath
-sed  -i -E 's|,|#COMMA#|g' $dr_copy_filepath
+gsed  -i -E 's|:|#SEMICOLON#|g' $dr_copy_filepath
+gsed  -i -E 's| |#SPACE#|g' $dr_copy_filepath
+gsed  -i -E 's|,|#COMMA#|g' $dr_copy_filepath
 
 # generate relations.txt file
 cut -f 1 $dr_copy_filepath > $relations_filepath
@@ -71,9 +71,9 @@ for ((i=0; i<num_folds; i++)); do
 	copy_to="$folds_dir/$fold_i"
 
 	# process the original files
-	find $copy_to -type f -exec sed  -i -E 's|:|#SEMICOLON#|g' {} \;
-	find $copy_to -type f -exec sed  -i -E 's| |#SPACE#|g' {} \;
-	find $copy_to -type f -exec sed  -i -E 's|,|#COMMA#|g' {} \;
+	find $copy_to -type f -exec gsed  -i -E 's|:|#SEMICOLON#|g' {} \;
+	find $copy_to -type f -exec gsed  -i -E 's| |#SPACE#|g' {} \;
+	find $copy_to -type f -exec gsed  -i -E 's|,|#COMMA#|g' {} \;
 
 	# copy the common files into each fold directories
 	cp $entities_filepath "$copy_to"
@@ -83,9 +83,9 @@ for ((i=0; i<num_folds; i++)); do
 done
 
 # process final data
-find $final_dir -type f -exec sed  -i -E 's|:|#SEMICOLON#|g' {} \;
-find $final_dir -type f -exec sed  -i -E 's| |#SPACE#|g' {} \;
-find $final_dir -type f -exec sed  -i -E 's|,|#COMMA#|g' {} \;
+find $final_dir -type f -exec gsed  -i -E 's|:|#SEMICOLON#|g' {} \;
+find $final_dir -type f -exec gsed  -i -E 's| |#SPACE#|g' {} \;
+find $final_dir -type f -exec gsed  -i -E 's|,|#COMMA#|g' {} \;
 
 # copy the common files into each fold directories
 cp $entities_filepath "$final_dir"
