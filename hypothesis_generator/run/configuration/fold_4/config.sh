@@ -5,7 +5,7 @@ start_relation="confers#SPACE#resistance#SPACE#to#SPACE#antibiotic"
 
 # The path to the directory of your data
 DATA_PATH="/home/asalim/KIDS/hypothesis_generator/data/kb/folds/fold_4"
-DATA_PATH = "/Users/adilsalim/KIDS/kg_constructor/data/kb/folds/fold4"
+#DATA_PATH = "/Users/adilsalim/KIDS/kg_constructor/data/kb/folds/fold4"
 
 # This is deprecated
 use_negatives=false
