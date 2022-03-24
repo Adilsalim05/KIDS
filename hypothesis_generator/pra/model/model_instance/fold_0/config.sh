@@ -4,8 +4,8 @@
 start_relation="confers#SPACE#resistance#SPACE#to#SPACE#antibiotic"
 
 # The path to the directory of your data
-DATA_PATH="/home/asalim/KIDS/hypothesis_generator/data/kb/folds/fold_0"
-
+#DATA_PATH="/home/asalim/KIDS/hypothesis_generator/data/kb/folds/fold_0"
+DATA_PATH ="/Users/adilsalim/KIDS/kg_constructor/output/folds/fold_0"
 
 # This is deprecated
 use_negatives=false
@@ -21,5 +21,3 @@ train_file="train.txt"
 
 # The name of the file that will be predicted on.
 predict_file=train_local.txt
-
-#DATA_PATH ="/Users/adilsalim/KIDS/kg_constructor/output/folds/fold_0"
